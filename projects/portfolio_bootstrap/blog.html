@@ -25,8 +25,52 @@
 
 <body class="bg-light">
 
-  <div class="container py-5">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm">
 
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="index.html">
+        Tuan Portfolio
+      </a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="blog.html">
+              Blog
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <div class="container py-5 mt-4">
+
+    <!-- PAGE TITLE -->
     <div class="text-center mb-5">
 
       <p class="text-uppercase text-secondary fw-semibold">
@@ -39,42 +83,82 @@
 
     </div>
 
-<div class="row g-5">
+    <div class="row g-5">
 
-  <!-- BLOG POSTS -->
-  <div class="col-lg-8">
+      <!-- BLOG POSTS -->
+      <div class="col-lg-8">
 
-    <div class="row g-4">
+        <div class="row g-4">
 
-      <!-- BLOG CARD 1 -->
-      <div class="col-12">
+          <!-- BLOG CARD 1 -->
+          <div class="col-12">
 
-        <div class="card border-0 shadow-sm">
+            <div class="card border-0 shadow-sm">
 
-          <img
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
-            class="card-img-top"
-            alt="Blog image"
-          >
+              <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+                class="card-img-top"
+                alt="Blog image"
+              >
 
-          <div class="card-body">
+              <div class="card-body">
 
-            <span class="badge bg-dark mb-3">
-              Bootstrap
-            </span>
+                <span class="badge bg-dark mb-3">
+                  Bootstrap
+                </span>
 
-            <h3 class="fw-bold">
-              Building Responsive Layouts
-            </h3>
+                <h3 class="fw-bold">
+                  Building Responsive Layouts
+                </h3>
 
-            <p class="text-muted">
-              Learn how to create responsive websites
-              using Bootstrap grid system.
-            </p>
+                <p class="text-muted">
+                  Learn how to create responsive websites
+                  using Bootstrap grid system.
+                </p>
 
-            <button class="btn btn-outline-dark">
-              Read More
-            </button>
+                <button class="btn btn-outline-dark">
+                  Read More
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- BLOG CARD 2 -->
+          <div class="col-12">
+
+            <div class="card border-0 shadow-sm">
+
+              <img
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
+                class="card-img-top"
+                alt="Blog image"
+              >
+
+              <div class="card-body">
+
+                <span class="badge bg-dark mb-3">
+                  Design
+                </span>
+
+                <h3 class="fw-bold">
+                  Modern UI Inspiration
+                </h3>
+
+                <p class="text-muted">
+                  Explore minimal and modern web
+                  interface inspirations.
+                </p>
+
+                <button class="btn btn-outline-dark">
+                  Read More
+                </button>
+
+              </div>
+
+            </div>
 
           </div>
 
@@ -82,35 +166,129 @@
 
       </div>
 
-      <!-- BLOG CARD 2 -->
-      <div class="col-12">
+      <!-- SIDEBAR -->
+      <div class="col-lg-4">
 
-        <div class="card border-0 shadow-sm">
+        <div class="sticky-top" style="top: 30px;">
 
-          <img
-            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4"
-            class="card-img-top"
-            alt="Blog image"
-          >
+          <!-- ABOUT CARD -->
+          <div class="card border-0 shadow-sm mb-4">
 
-          <div class="card-body">
+            <div class="card-body">
 
-            <span class="badge bg-dark mb-3">
-              Design
-            </span>
+              <h4 class="fw-bold mb-3">
+                About Me
+              </h4>
 
-            <h3 class="fw-bold">
-              Modern UI Inspiration
-            </h3>
+              <p class="text-muted">
+                Software Engineering student passionate
+                about frontend development and UI design.
+              </p>
 
-            <p class="text-muted">
-              Explore minimal and modern web
-              interface inspirations.
-            </p>
+            </div>
 
-            <button class="btn btn-outline-dark">
-              Read More
-            </button>
+          </div>
+
+          <!-- RECENT POSTS -->
+          <div class="card border-0 shadow-sm mb-4">
+
+            <div class="card-body">
+
+              <h5 class="fw-bold mb-3">
+                Recent Posts
+              </h5>
+
+              <ul class="list-group list-group-flush">
+
+                <li class="list-group-item">
+                  Responsive Bootstrap Layouts
+                </li>
+
+                <li class="list-group-item">
+                  Minimal UI Design
+                </li>
+
+                <li class="list-group-item">
+                  Portfolio Website Ideas
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <!-- CATEGORIES -->
+          <div class="card border-0 shadow-sm mb-4">
+
+            <div class="card-body">
+
+              <h5 class="fw-bold mb-3">
+                Categories
+              </h5>
+
+              <div class="d-flex flex-column gap-2">
+
+                <span class="badge text-bg-light p-3 text-start">
+                  Web Design
+                </span>
+
+                <span class="badge text-bg-light p-3 text-start">
+                  Bootstrap
+                </span>
+
+                <span class="badge text-bg-light p-3 text-start">
+                  Frontend Development
+                </span>
+
+                <span class="badge text-bg-light p-3 text-start">
+                  UI Inspiration
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- TAGS CLOUD -->
+          <div class="card border-0 shadow-sm">
+
+            <div class="card-body">
+
+              <h5 class="fw-bold mb-3">
+                Tags
+              </h5>
+
+              <div class="d-flex flex-wrap gap-2">
+
+                <span class="badge rounded-pill text-bg-dark">
+                  HTML
+                </span>
+
+                <span class="badge rounded-pill text-bg-dark">
+                  CSS
+                </span>
+
+                <span class="badge rounded-pill text-bg-dark">
+                  Bootstrap
+                </span>
+
+                <span class="badge rounded-pill text-bg-dark">
+                  Portfolio
+                </span>
+
+                <span class="badge rounded-pill text-bg-dark">
+                  Responsive
+                </span>
+
+                <span class="badge rounded-pill text-bg-dark">
+                  UI Design
+                </span>
+
+              </div>
+
+            </div>
 
           </div>
 
@@ -119,66 +297,6 @@
       </div>
 
     </div>
-
-  </div>
-
-  <!-- SIDEBAR -->
-  <div class="col-lg-4">
-
-    <div class="sticky-top" style="top: 30px;">
-
-      <!-- ABOUT CARD -->
-      <div class="card border-0 shadow-sm mb-4">
-
-        <div class="card-body">
-
-          <h4 class="fw-bold mb-3">
-            About Me
-          </h4>
-
-          <p class="text-muted">
-            Software Engineering student passionate
-            about frontend development and UI design.
-          </p>
-
-        </div>
-
-      </div>
-
-      <!-- RECENT POSTS -->
-      <div class="card border-0 shadow-sm">
-
-        <div class="card-body">
-
-          <h5 class="fw-bold mb-3">
-            Recent Posts
-          </h5>
-
-          <ul class="list-group list-group-flush">
-
-            <li class="list-group-item">
-              Responsive Bootstrap Layouts
-            </li>
-
-            <li class="list-group-item">
-              Minimal UI Design
-            </li>
-
-            <li class="list-group-item">
-              Portfolio Website Ideas
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
 
   </div>
 
