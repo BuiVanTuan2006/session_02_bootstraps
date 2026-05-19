@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f5f2;
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
