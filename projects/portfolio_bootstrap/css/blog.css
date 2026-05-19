@@ -2,38 +2,36 @@ body {
   background-color: #f8f5f2;
 }
 
-.card-img-top {
-  height: 250px;
-  object-fit: cover;
-}
-
+/* BLOG CARDS */
 .card {
+  border-radius: 20px;
   transition: 0.3s ease;
+  overflow: hidden;
 }
 
 .card:hover {
   transform: translateY(-5px);
 }
-.badge {
-  font-weight: 500;
+
+/* BLOG IMAGES */
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
 }
 
-.card {
-  border-radius: 20px;
-}
-.card {
-  border-radius: 18px;
-}
-
+/* LIST GROUP */
 .list-group-item {
   border: none;
   padding-left: 0;
 }
 
+/* BADGES */
 .badge {
   padding: 10px 14px;
   font-weight: 500;
 }
+
+/* FORM */
 .form-control {
   border-radius: 12px;
   padding: 12px;
@@ -41,4 +39,10 @@ body {
 
 textarea.form-control {
   resize: none;
+}
+
+/* BUTTONS */
+.btn-outline-dark,
+.btn-dark {
+  border-radius: 999px;
 }
