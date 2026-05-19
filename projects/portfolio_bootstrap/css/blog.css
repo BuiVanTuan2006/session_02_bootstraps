@@ -46,3 +46,21 @@ textarea.form-control {
 .btn-dark {
   border-radius: 999px;
 }
+.btn-primary {
+  background-color: #7c9a92;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #6d8881;
+}
+
+.btn-outline-primary {
+  border-color: #7c9a92;
+  color: #7c9a92;
+}
+
+.btn-outline-primary:hover {
+  background-color: #7c9a92;
+  border-color: #7c9a92;
+}

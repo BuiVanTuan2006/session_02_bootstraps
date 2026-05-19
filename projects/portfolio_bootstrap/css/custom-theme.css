@@ -36,3 +36,21 @@ body {
 img {
   object-fit: cover;
 }
+/* CUSTOM SPACING */
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.card-spacing {
+  padding: 32px;
+}
+
+.text-spacing {
+  margin-bottom: 24px;
+}
+
+.large-gap {
+  gap: 32px;
+}
