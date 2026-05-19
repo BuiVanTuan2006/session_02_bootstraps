@@ -1,8 +1,38 @@
+:root {
+
+  --bs-primary: #7c9a92;
+  --bs-primary-rgb: 124, 154, 146;
+
+  --bs-dark: #2f2f2f;
+  --bs-body-bg: #f8f5f2;
+
+  --bs-border-radius: 1rem;
+
+}
+
+/* BODY */
 body {
-  background-color: #f8f5f2;
+  background-color: var(--bs-body-bg);
+  color: #2f2f2f;
   font-family: Arial, sans-serif;
 }
 
+/* BUTTONS */
+.btn-dark {
+  background-color: #7c9a92;
+  border: none;
+}
+
+.btn-dark:hover {
+  background-color: #6d8881;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: white;
+}
+
+/* IMAGES */
 img {
   object-fit: cover;
 }
