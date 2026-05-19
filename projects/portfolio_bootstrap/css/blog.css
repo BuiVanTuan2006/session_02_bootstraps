@@ -21,3 +21,24 @@ body {
 .card {
   border-radius: 20px;
 }
+.card {
+  border-radius: 18px;
+}
+
+.list-group-item {
+  border: none;
+  padding-left: 0;
+}
+
+.badge {
+  padding: 10px 14px;
+  font-weight: 500;
+}
+.form-control {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+textarea.form-control {
+  resize: none;
+}
