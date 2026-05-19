@@ -14,3 +14,10 @@ body {
 .card:hover {
   transform: translateY(-5px);
 }
+.badge {
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 20px;
+}
